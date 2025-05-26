@@ -1,0 +1,19 @@
+div {
+    border: 10px solid black;
+    border-radius: 2rem;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: green;
+}

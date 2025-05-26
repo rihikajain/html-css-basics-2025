@@ -1,0 +1,19 @@
+a {
+    border: 5px groove black;
+    border-radius: 70px;
+    display: inline-block;
+    width: 8rem;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 3rem;
+    text-align: center;
+    color: blue;
+    font-size: medium;
+    margin: 10px 10px;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    background-color: green;
+}

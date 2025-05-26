@@ -1,0 +1,21 @@
+p{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 5rem;
+    font-variant: normal;
+    /* text-align: center; */
+    text-decoration: line-through dotted ;text-shadow: 1px 1px 10px red;
+    text-indent: 100px;
+    word-spacing: 10px;
+
+    
+}
+a{
+    text-decoration: none;
+
+}
+#para::first-line{
+text-indent: 100px;
+}

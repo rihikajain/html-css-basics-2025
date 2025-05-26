@@ -1,0 +1,23 @@
+div {
+    border: 5px solid black;
+    border-radius: 2rem;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.qwe1{
+    background-color: yellow;
+}
+.qwe2{
+    background-color: green;
+}
+.qwe3{
+    background-color: blue;
+}
+.qwe4{
+    background-color: red;
+}
