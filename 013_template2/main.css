@@ -1,0 +1,54 @@
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid #000000;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div{
+    min-height: 100px;
+    width: 100%;
+}
+
+.c1 {
+    background-color: rgb(30, 63, 120);
+}
+
+.c2 {
+    background-color: rgb(42, 91, 175);
+}
+
+.c3 {
+    background-color: rgb(79, 128, 213);
+    ;
+}
+
+.c4 {
+    background-color: rgb(99, 125, 171);
+}
+
+.c5 {
+    background-color: rgb(155, 174, 208);
+}
+
+ .c1:hover {
+    background-color: rgba(30, 63, 120, 0);
+}
+
+.c2:hover {
+    background-color: rgba(42, 91, 175, 0);
+}
+
+.c3:hover {
+    background-color: rgba(79, 128, 213, 0);
+
+}

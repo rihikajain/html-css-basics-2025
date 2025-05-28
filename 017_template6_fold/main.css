@@ -1,0 +1,27 @@
+html,
+body,
+nav,
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.mainn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/Images/pic2.jpg");
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    background-size: cover;
+}
+div{
+    height: 100vh;
+    border-bottom: 2px solid black;
+}
+p {
+    font-size: 2rem;
+}

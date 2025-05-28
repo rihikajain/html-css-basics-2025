@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+div {
+    order:7;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.c1 {
+    background-color: rgb(91, 230, 218);
+
+}
+
+.c2 {
+    background-color: rgb(206, 120, 186);
+}
+
+.c3 {
+    background-color: rgb(213, 79, 104);
+    ;
+}
+
+.c4 {
+    background-color: rgb(76, 110, 168);
+
+}
+
+.c5 {
+    background-color: rgb(167, 91, 189);
+}
+
+.c6 {
+    background-color: rgb(99, 207, 114);
+    ;
+}
+
+.c7 {
+    background-color: rgb(215, 198, 90);
+
+}
