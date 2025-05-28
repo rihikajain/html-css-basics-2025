@@ -1,0 +1,13 @@
+nav{
+    width: 12%;
+}
+
+main{
+    width:88%;
+}
+ul{
+    flex-flow: column nowrap;
+}
+li{
+    /* list-style: square; */
+}

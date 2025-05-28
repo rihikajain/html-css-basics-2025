@@ -1,25 +1,57 @@
-body{
-    width: 80%;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-nav , main{
-    
-    border: 5px solid black;
+nav,
+ul,
+li,
+main,
+section {
+    padding: 0;
+    border: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-nav{
-    vertical-align: top;
-    display:inline-block;
-    width: 
-    25%;
+
+
+body {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+      border: 2px solid rgba(255, 0, 0, 0.8);
 }
 
-main{
-    display: inline-block;
-    width: 75%;;
+
+main {
+    width:100%;
+    padding: 10px;
+
 }
-li{
-    list-style: square;
+
+nav,
+main {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    width:
+        100%;
+
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 10px;
 }
