@@ -1,0 +1,30 @@
+
+
+
+
+.c1 {
+    background-color: rgb(30, 63, 120);
+
+}
+
+.c2 {
+    background-color: rgb(42, 91, 175);
+}
+
+.c3 {
+    background-color: rgb(79, 128, 213);
+    ;
+}
+
+.c1:hover {
+    background-color: rgba(30, 63, 120, 0);
+}
+
+.c2:hover {
+    background-color: rgba(42, 91, 175, 0);
+}
+
+.c3:hover {
+    background-color: rgba(79, 128, 213, 0);
+
+}
