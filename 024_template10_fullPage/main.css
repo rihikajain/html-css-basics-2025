@@ -1,0 +1,84 @@
+html,
+body,
+nav,
+main,
+div,
+section,
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid yellowgreen; */
+    font-family: "Cantarell", sans-serif;
+
+}
+
+#mainsec {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/Images/background-photo-mobile-devices.jpg);
+    background-position: center;
+    background-origin: border-box;
+    background-color: rgb(71, 68, 68);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#mainsec>div {
+    height: 90vh;
+}
+
+.idx-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.cen {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+button {
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 3px 13px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: rgb(142, 120, 78);
+
+}

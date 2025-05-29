@@ -1,0 +1,25 @@
+
+
+
+#mainsec {
+    background-image: url(/Images/background-photo.jpg);
+}
+
+#mainsec>div {
+    height: 18vh;
+}
+
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
