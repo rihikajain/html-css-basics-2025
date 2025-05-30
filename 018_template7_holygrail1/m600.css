@@ -1,0 +1,10 @@
+body {
+    height: 99vh;
+    margin: 3px auto;
+    width: 99%;
+}
+
+aside {
+    width: 50%;
+    height: 30%;
+}

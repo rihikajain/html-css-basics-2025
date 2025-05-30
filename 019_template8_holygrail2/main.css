@@ -1,0 +1,9 @@
+header,
+nav,
+article,
+aside,
+footer {
+    border-bottom: 2px solid black;
+    background-color: beige;
+    height: 50px;
+}
