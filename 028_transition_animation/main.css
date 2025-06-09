@@ -1,0 +1,60 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  height: 100vh;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: rgb(104, 179, 154);
+}
+
+div:hover {
+  background-color: rgb(153, 52, 189);
+}
+
+.trans {
+  transition-delay: 100ms;
+  transition-timing-function: ease-in-out;
+  transition-duration: 2s;
+  transition-property: background-color;
+
+}
+
+.anim:hover {
+  animation-name: hello;
+  animation-timing-function: ease-out;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-delay: 100ms; */
+}
+
+@keyframes hello {
+  0% {
+    width: 200px;
+    height: 200px;
+  }
+
+  100% {
+    width: 100px;
+    height: 100px;
+  }
+}
