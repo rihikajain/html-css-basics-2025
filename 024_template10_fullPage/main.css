@@ -10,6 +10,39 @@ header {
     box-sizing: border-box;
     /* border: 2px solid yellowgreen; */
     font-family: "Cantarell", sans-serif;
+    /* background-color: black; */
+
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div,
+header nav {
+    /* background-color: azure; */
+    width: 20%;
+    height: 30px;
+    margin: 0 5px;
+}
+
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.svg_style {
+    fill: white;
 
 }
 
