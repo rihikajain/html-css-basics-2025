@@ -8,42 +8,55 @@ header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid yellowgreen; */
+    border: 2px solid yellowgreen;
     font-family: "Cantarell", sans-serif;
     /* background-color: black; */
-
 }
 
 header {
     height: 40px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* position: absolute; */
+    /* top: 40px; */
+    background-color: rgba(14, 14, 14, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header div,
-header nav {
-    /* background-color: azure; */
-    width: 20%;
-    height: 30px;
-    margin: 0 5px;
+header div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%;
 }
 
-
+.logo {
+    margin: 1px;
+    color: whitesmoke;
+    font-size: 20px;
+}
 
 header nav {
+    width: 20%;
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.svg_style {
-    fill: white;
+header div,
+header nav {
+    height: 30px;
+    margin: 0 5px;
+}
 
+.svg_style {
+    fill: whitesmoke;
+    width: 20px;
+}
+
+.svg_style:hover {
+    fill: rgb(217, 190, 127);
 }
 
 #mainsec {
@@ -53,7 +66,8 @@ header nav {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-
+    /* position: relative;
+    top: 40px; */
     background-image: url(/Images/background-photo-mobile-devices.jpg);
     background-position: center;
     background-origin: border-box;
@@ -74,7 +88,6 @@ header nav {
     align-items: center;
     text-align: center;
     color: whitesmoke;
-
 }
 
 .cen {
@@ -83,7 +96,6 @@ header nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 
 h1 {
