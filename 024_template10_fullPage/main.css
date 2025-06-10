@@ -4,54 +4,61 @@ nav,
 main,
 div,
 section,
-header {
+header,
+a,
+footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     font-family: "Cantarell", sans-serif;
     /* background-color: black; */
 }
 
 header {
+    color: whitesmoke;
     height: 40px;
     width: 100%;
-    /* position: absolute; */
-    /* top: 40px; */
-    background-color: rgba(14, 14, 14, 0.5);
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(14, 14, 14, 0.7);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header div {
+header div,
+header nav {
     display: flex;
-    justify-content: start;
+    margin: 0 5px;
+}
+
+header div {
+    justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 100%;
+}
+
+header div:hover {
+    color: rgb(217, 190, 127);
 }
 
 .logo {
     margin: 1px;
-    color: whitesmoke;
     font-size: 20px;
 }
 
 header nav {
     width: 20%;
-    display: flex;
     justify-content: space-around;
-    list-style: none;
 }
 
-header div,
 header nav {
-    height: 30px;
-    margin: 0 5px;
+    display: none;
 }
 
 .svg_style {
-    fill: whitesmoke;
+    fill: currentColor;
     width: 20px;
 }
 
@@ -66,8 +73,6 @@ header nav {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    /* position: relative;
-    top: 40px; */
     background-image: url(/Images/background-photo-mobile-devices.jpg);
     background-position: center;
     background-origin: border-box;
@@ -78,7 +83,7 @@ header nav {
 }
 
 #mainsec>div {
-    height: 90vh;
+    height: 85vh;
 }
 
 .idx-center {
@@ -88,6 +93,8 @@ header nav {
     align-items: center;
     text-align: center;
     color: whitesmoke;
+    position: relative;
+    top: 40px;
 }
 
 .cen {
@@ -126,4 +133,38 @@ button:hover {
     background-color: whitesmoke;
     color: rgb(142, 120, 78);
 
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: beige;
+
+}
+
+.svg_style2 {
+    width: 30px;
+    margin: 10px;
+}
+
+footer nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+a {
+    /* text-align: center; */
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+a:hover {
+    background-color: rgba(50, 47, 43, 0.5);
 }

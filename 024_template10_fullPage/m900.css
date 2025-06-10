@@ -1,6 +1,3 @@
-
-
-
 #mainsec {
     background-image: url(/Images/background-photo.jpg);
 }
@@ -23,3 +20,31 @@ h3 {
     font-size: 1rem;
 }
 
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+
+    justify-content: start;
+    align-items: center;
+    width: 40%;
+}
+
+header nav {
+    width: 20%;
+    justify-content: space-around;
+}
+
+header div,
+header nav {
+    display: flex;
+    margin: 0 5px;
+}
+
+footer {
+    display: none;
+}
