@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.fir {
+  width: 80px;
+  height: 80px;
+  color: currentColor;
+}
+
+.sec {
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bolder;
+
+}
+
+.third {
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+.button {
+  width: 80px;
+  height: 70px;
+
+  font-size: small;
+  font-family: sans-serif;
+}
