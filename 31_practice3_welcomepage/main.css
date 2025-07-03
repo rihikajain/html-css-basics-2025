@@ -12,12 +12,26 @@ main {
   justify-content: center;
   align-items: center;
   color: gray;
+
+}
+
+main div {
+  margin: 7px;
+}
+
+.first {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fir {
   width: 80px;
   height: 80px;
-  color: currentColor;
+  fill: rgb(87, 127, 127);
 }
 
 .sec {
@@ -32,10 +46,44 @@ main {
   font-family: sans-serif;
 }
 
-.button {
-  width: 80px;
-  height: 70px;
+.fourth {
+  margin-top: 30px;
+}
 
+button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  background-color: rgb(87, 127, 127);
   font-size: small;
   font-family: sans-serif;
+  color: white;
+  transition-duration: 1s;
+
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(87, 127, 127);
+  border: 1px solid rgb(87, 127, 127);
+}
+
+.fir:hover {
+  animation-name: smile;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes smile {
+  0% {
+    width: 80px;
+    height: 80px;
+  }
+
+  100% {
+    width: 120px;
+    height: 120px;
+  }
 }
